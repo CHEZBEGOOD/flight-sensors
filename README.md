@@ -40,7 +40,7 @@ On Mac or Linux you might have to run `chmod +x gradlew` once first. The APK end
 
 - Phone attitude is decent in smooth air, but in a long coordinated turn it slowly decides it's level again. The accelerometer can't tell turning from gravity, and real AHRS units fix that with GPS or airspeed data. This doesn't.
 - The compass gets thrown off by all the metal and electronics in a cockpit, so treat heading as a rough number.
-- GPS vertical speed lags a few seconds behind the real VSI and jumps around.
+- GPS vertical speed is smoothed, so it runs a couple of seconds behind, and it's still jumpier than a real VSI.
 - On phones older than Android 14, altitude is ellipsoid height, which reads about 70 ft low around Oregon compared to MSL.
 - The noise number is relative to the mic's maximum (dBFS), not real decibels, so it's only good for comparing one moment to another.
 
