@@ -47,3 +47,7 @@ On Mac or Linux you might have to run `chmod +x gradlew` once first. The APK end
 ## Not a flight instrument
 
 Don't fly the airplane with this. Phone sensors drift, GPS drops out, and none of it is certified or tested for aviation use.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
